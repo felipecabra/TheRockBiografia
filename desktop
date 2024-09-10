@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Desktop First</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #0073e6;
+            color: white;
+        }
+
+        .logo img {
+            width: 120px;
+        }
+
+        .icons {
+            display: flex;
+        }
+
+        .icons p {
+            margin-left: 15px;
+        }
+
+        .main-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .photo img {
+            width: 400px;
+            height: auto;
+        }
+
+        .text {
+            max-width: 50%;
+            padding-left: 20px;
+        }
+
+        .text h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .text p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0073e6;
+            color: white;
+        }
+
+       
+ @media (max-width: 1024px) {
+            .main-section {
+                flex-direction: column;
+                align-items: center;
+                padding: 30px;
+            }
+
+         .photo img {
+                width: 100%;
+                max-width: 500px;
+            }
+
+         .text {
+                max-width: 100%;
+                padding-left: 0;
+                text-align: center;
+            }
+
+        .text h1 {
+                font-size: 1.5rem;
+     }
+
+            .text p {
+                font-size: 1rem;
+            }
+ }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 15px;
+            }
+            .icons {
+                margin-top: 10px;
+                justify-content: flex-start;
+            }
+            .icons p {
+                margin-left: 10px;
+            }
+
+            .main-section {
+                padding: 20px;
+            }
+
+            .photo img {
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .text h1 {
+                font-size: 1.2rem;
+            }
+
+            .text p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px){
+            .header {
+                padding: 10px;
+            }
+
+            .icons p {
+                margin-left: 5px;
+            }
+            .main-section {
+                padding: 10px;
+            }
+            .photo img {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .text h1 {
+                font-size: 1rem;
+            }
+
+            .text p {
+                font-size: 0.8rem;
+            }
+            .icons{
+           display: none;
+            }
+        }
+</style>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo">
+            <img  src="https://img.icons8.com/ios/50/satellites.png" alt="satellites"/>
+        </div>
+        <div class="icons">
+            <p>Link 1</p>
+            <p>Link 2</p>
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <section class="main-section">
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem de Exemplo" />
+        </div>
+        <div class="text">
+            <h1>Título da Seção</h1>
+            <p>Este é um texto de exemplo para a seção. Ele pode conter qualquer informação que você queira destacar ao lado de uma imagem.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>© 2024 - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
