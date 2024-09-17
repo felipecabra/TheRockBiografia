@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+.foto{
+    width:150px;
+    height:150px;
+    background-color: rgb(47, 145, 79);
+    border-radius: 300px;
+    background: url(https://i.pinimg.com/564x/89/9e/87/899e878ae58b4ff8000fca57bacb46fd.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.um{
+    width:150px;
+    height:150px;
+    background-color: rgb(25, 53, 7);
+    border-radius: 30px;
+}
+.dois{
+    width:150px;
+    height:150px;
+    background-color: rgb(8, 61, 6);
+    border-radius: 30px;
+}
+.tres{
+    width:150px;
+    height:150px;
+    background-color: rgb(10, 31, 5);
+    border-radius: 30px;
+}
+.flex{
+display:flex;
+}
+
+</style>
+
+<body>
+
+
+
+     <div id="flex">
+        
+          <div class="foto"> </div>
+
+     </div>
+<h1><p><b>FELIPE</b></p></h1>
+   <p>PROFISÃO</p>
+     <div>
+          <div class="um"></div>
+          <div class="dois"></div>
+          <div class="tres"></div>
+     </div>
+</body>
+
+
+</html>
