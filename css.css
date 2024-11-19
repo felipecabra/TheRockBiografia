@@ -1,0 +1,86 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: purple;
+    height: 80px; 
+    width: 100%;
+
+}
+
+.img-header {
+    height: 100%;
+    width: auto;
+}
+
+.caçarato{
+    height: 80px; 
+    width: 80px;
+
+
+}
+.rato {
+    height: 159px ;
+    width: 320px;
+}
+.jogador1{
+    width: 149px;
+    height:109px;
+    background-color: rgb(47, 145, 79);
+    border-radius: 30px;
+    background: url(https://diarioregionaldigital.com.br/wp-content/uploads/2017/01/diario-12244.jpg);
+    background-position: center;
+    background-size: cover;
+     display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+.jogador2{
+    width:149px;
+    height:109px;
+    background-color: rgb(47, 145, 79);
+    border-radius: 30px;
+    background: url(https://diarioregionaldigital.com.br/wp-content/uploads/2017/01/diario-12244.jpg);
+    background-position: center;
+    background-size: cover;
+     display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+    .jogador3{
+        width:149px;
+        height:109px;
+        background-color: rgb(47, 145, 79);
+        border-radius: 30px;
+        background: url(https://diarioregionaldigital.com.br/wp-content/uploads/2017/01/diario-12244.jpg);
+        background-position: center;
+        background-size: cover;
+         display: flex;
+        margin-left: 20px;
+        }
+.cebolinha{
+width:250px;
+height:150px;
+background-color: rgb(47, 145, 79);
+border-radius: 30px;
+background: url();
+background-position: center;
+background-size: cover;
+ display: flex;
+margin-left: 550px;
+}
+.cassio{
+width:250px;
+height:150px;
+background-color: rgb(47, 145, 79);
+border-radius: 30px;
+background: url(https://i.pinimg.com/originals/3e/4a/26/3e4a2695182168baf9309a2fb7fb7105.jpg);
+background-position: center;
+background-size: cover;
+ display: flex;
+margin-left: 500px;
+
+}
